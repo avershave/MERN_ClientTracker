@@ -14,3 +14,5 @@ Things I've learned on this project
 + Used Heruko for the first time. It's okay. Shows good debug info.
 + Learned more about Express API's
 + Learned how useful React Components are
+
+[NoobCoder](https://www.youtube.com/watch?v=35BSnmTbjlE)
