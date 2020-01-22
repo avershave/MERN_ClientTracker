@@ -6,7 +6,9 @@ const app = express();
 app.use(express.json());
 
 const client = require('./routes/clients');
+const employee = require('./routes/employee')
 app.use('/client', client)
+app.use('/employee', employee)
 
 app.use(cors());
 

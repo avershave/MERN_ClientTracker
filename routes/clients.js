@@ -21,15 +21,14 @@ clientRouter.get('/', (req, res) => {
 clientRouter.post('/', (req, res) => {
     Client.create(req.body, err => {
         if(err){
-            res.status(500).json({message: {
+            res.status(500).json({
                 msgBody: "Unable to create client.",
-                msgError: true
-            }});
+                msgError: true});
         } else {
-            res.status(200).json({message: {
+            res.status(200).json({
                 msgBody: "Created client!",
                 msgError: false
-            }});
+            });
         }
     });
 });

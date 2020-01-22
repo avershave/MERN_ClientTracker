@@ -17,7 +17,11 @@ const ClientSchema = new Schema({
     email: {
         type: String,
         required: true
+    },
+    appointment: {
+        date: Date,
+        description: String
     }
 });
 
-module.exports = mongoose.model('Client', ClientSchema);
+module.exports = Client = mongoose.model('Client', ClientSchema);
